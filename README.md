@@ -108,7 +108,7 @@ A plain text file holding `N x N` integers separated by any whitespace
 (spaces and/or newlines). Entry in row `i`, column `j` is the cost of travelling
 **from city `i` to city `j`**, so the matrix may be asymmetric.
 
-```
+```c
 9999   3   5   2
    4 9999   6   7
    1   8 9999   3
@@ -139,7 +139,7 @@ extension, so `data/ftv44.txt` becomes `solution/ftv44_2026-10-30_06-11-40.log`.
 The file contains the run settings, one line for every new global best, and a
 final result block:
 
-```
+```log
 ========================================
 Run started at: 2026-10-30 06:11:40
 ========================================
